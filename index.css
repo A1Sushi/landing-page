@@ -1,0 +1,41 @@
+body {
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    padding: 20px 60px 20px 20px;
+    justify-content: flex-end;
+    background-color: #1F2937;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 80px;
+    font-size: 24px;
+    color: #F9FaF8;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    align-self: center;
+}
+
+/* Tasks to Complete * = Complete 
+
+
+2. Section 1 (Intro/Hero)
+3. Section 2 (Images)
+4. Section 3 (Quotes)
+5. Section 4 (Ad)
+6. Footer  
+
+Complete
+1. Header
+    - Row Flex Layout * 
+    - Correct Spacing *
+    - Add color to fonts & background *
+2. 
+*/
