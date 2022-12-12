@@ -2,10 +2,12 @@ body {
     margin: 0%;
 }
 
-.header {
+.header,
+.hero
+{
     display: flex;
     gap: 20px;
-    padding: 20px 60px 20px 20px;
+    padding: 20px 60px 80px 20px;
     justify-content: flex-end;
     background-color: #1F2937;
 }
@@ -23,10 +25,51 @@ body {
     align-self: center;
 }
 
+.hero {
+    display: flex;
+    padding: 20px 60px 80px 100px;
+}
+
+.hero .main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FaF8;
+    flex-basis: 1000px;
+}
+
+.hero .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button1 {
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+}
+
+.placeholder {
+    display: flex;
+    background-color: rgba(151, 153, 158, 0.504);
+    color: #E5E7EB;
+    flex-basis: 1000px;
+    height: 150px;
+    padding: 10px
+}
+
+.placeholder > p {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
 /* Tasks to Complete * = Complete 
-
-
-2. Section 1 (Intro/Hero)
+2. Section 1 (Intro/Hero) *
+    - figure out placeholder issue  = used guide https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html
+    - Center placeholder text = made text child of flex
+    - Create button 
 3. Section 2 (Images)
 4. Section 3 (Quotes)
 5. Section 4 (Ad)
@@ -37,5 +80,6 @@ Complete
     - Row Flex Layout * 
     - Correct Spacing *
     - Add color to fonts & background *
-2. 
+
+3. 
 */
