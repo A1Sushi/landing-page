@@ -48,6 +48,7 @@ body {
     border: 0;
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .placeholder {
@@ -65,12 +66,49 @@ body {
     width: 100%;
 }
 
+.gallery-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+}
+
+.gallery-title {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+}
+
+.gallery h4 {
+    align-self: center;
+    text-align: center;
+}
+
+.outer {
+    display: flex;
+    flex: 0 0 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.images {
+    border: 4px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
 /* Tasks to Complete * = Complete 
-2. Section 1 (Intro/Hero) *
-    - figure out placeholder issue  = used guide https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html
-    - Center placeholder text = made text child of flex
-    - Create button 
-3. Section 2 (Images)
+
 4. Section 3 (Quotes)
 5. Section 4 (Ad)
 6. Footer  
@@ -80,6 +118,13 @@ Complete
     - Row Flex Layout * 
     - Correct Spacing *
     - Add color to fonts & background *
-
-3. 
+2. Section 1 (Intro/Hero) *
+    - figure out placeholder issue  = used guide https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html *
+    - Center placeholder text = made text child of flex *
+    - Create button *
+    - Adjust spacing *
+3. Section 2 (Images) *
+    - Correct spacing * 
+    - Add CSS styling *
+    - maintain text under placeholder w/o having a border for the text, just images in order to align everything properly = make another div *
 */
