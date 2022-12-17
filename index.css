@@ -53,10 +53,11 @@ body {
 
 .placeholder {
     display: flex;
+    justify-content: center;
     background-color: rgba(151, 153, 158, 0.504);
     color: #E5E7EB;
     flex-basis: 1000px;
-    height: 150px;
+    height: 180px;
     padding: 10px
 }
 
@@ -107,9 +108,31 @@ body {
     border-radius: 10px;
 }
 
-/* Tasks to Complete * = Complete 
+.quotes {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 100px 250px 100px 250px;
+}
 
+.text {
+    margin: 0;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+
+    color: #1F2937;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* Tasks to Complete * = Complete 
 4. Section 3 (Quotes)
+    - Styling *
+    - Layout 
 5. Section 4 (Ad)
 6. Footer  
 
