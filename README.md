@@ -19,8 +19,8 @@
 - https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png
 
 ## Screenshots 
-- Coming in the future!
-- ![](/gifs/Sorry-GIF.gif)
+- ![](/images/homepage-1.png)
+- ![](/images/homepage-2.png)
 
 ## Summary 
 - N/A

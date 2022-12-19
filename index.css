@@ -78,6 +78,7 @@ body {
 .gallery-title {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .gallery {
@@ -131,7 +132,7 @@ body {
 
 .ad {
     display: flex;
-    height: 400px;
+    height: 300px;
     width: auto;
     justify-content: center;
 }
@@ -140,7 +141,8 @@ body {
     display: flex;
     align-self: center;
     justify-content: space-around;
-    border: 2px solid black;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
     background-color: #3882F6;
     flex-basis: 700px;
     height: 100px;
@@ -181,26 +183,15 @@ body {
     border-radius: 5px;
 }
 
-/* Tasks to Complete * = Complete 
-5. Section 4 (Ad) *
-    - Not showing up for some reason due to overflow, sometimes work sometimes doesn't
-6. Footer  
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+    justify-content: center;
+}
 
-Complete
-1. Header
-    - Row Flex Layout * 
-    - Correct Spacing *
-    - Add color to fonts & background *
-2. Section 1 (Intro/Hero) *
-    - figure out placeholder issue  = used guide https://ericsu.me/tech/2016/07/04/creating-image-placeholder.html *
-    - Center placeholder text = made text child of flex *
-    - Create button *
-    - Adjust spacing *
-3. Section 2 (Images) *
-    - Correct spacing * 
-    - Add CSS styling *
-    - maintain text under placeholder w/o having a border for the text, just images in order to align everything properly = make another div *
-4. Section 3 (Quotes)
-    - Styling *
-    - Layout *
-*/
+.footer p {
+    color: #E5E7EB;
+    font: 24px;
+    align-self: center;
+}
