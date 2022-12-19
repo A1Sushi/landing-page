@@ -129,11 +129,61 @@ body {
     align-self: flex-end;
 }
 
+.ad {
+    display: flex;
+    height: 400px;
+    width: auto;
+    justify-content: center;
+}
+
+.ad-box {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    background-color: #3882F6;
+    flex-basis: 700px;
+    height: 100px;
+    padding: 10px
+}
+
+.ad-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px
+}
+
+.ad-text p {
+    margin: 0px;
+    color: white;
+}
+
+.ad-text .one {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FaF8;
+}
+
+.ad-text .two {
+    color: #E5E7EB;
+}
+
+.ad-button {
+    align-self: center;
+    height: 40px;
+    width: 120px;
+    background-color: #3882F6;
+    color: #F9FaF8;
+    font-weight: bolder;
+    border: 3px solid white;
+    padding: 2px 20px 2px 20px;
+    border-radius: 5px;
+}
+
 /* Tasks to Complete * = Complete 
-4. Section 3 (Quotes)
-    - Styling *
-    - Layout 
-5. Section 4 (Ad)
+5. Section 4 (Ad) *
+    - Not showing up for some reason due to overflow, sometimes work sometimes doesn't
 6. Footer  
 
 Complete
@@ -150,4 +200,7 @@ Complete
     - Correct spacing * 
     - Add CSS styling *
     - maintain text under placeholder w/o having a border for the text, just images in order to align everything properly = make another div *
+4. Section 3 (Quotes)
+    - Styling *
+    - Layout *
 */
