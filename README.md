@@ -23,4 +23,6 @@
 - ![](/images/homepage-2.png)
 
 ## Summary 
-- N/A
+- This was an interesting project because I was forced to utilize the developer tools to figure how why things were spaced a certain way or why something was not appearing the way it was supposed to be
+- I carried over my knowledge learned from project recipes and implemented flex-grow/shrink/basis, flex-direction, justify content & align-item/self
+- I will be looking to improve the code by revisiting old concepts, so stay tuned! 
