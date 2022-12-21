@@ -185,6 +185,8 @@ body {
 
 .footer {
     display: flex;
+    gap: 10px;
+    flex-direction: column;
     background-color: #1F2937;
     height: 100px;
     justify-content: center;
@@ -194,4 +196,5 @@ body {
     color: #E5E7EB;
     font: 24px;
     align-self: center;
+    margin: 0px;
 }

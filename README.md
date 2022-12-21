@@ -11,7 +11,7 @@
 - Visual Studio Code 
 
 ## Link(s)
-- [Click here to view live project! - Coming Soon!]()
+- [Click here to view live project!](https://a1sushi.github.io/landing-page/)
 - [Assignment Link](https://www.theodinproject.com/lessons/foundations-landing-page) 
 
 ## Links & Credit 
