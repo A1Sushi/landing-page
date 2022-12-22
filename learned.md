@@ -27,7 +27,7 @@
         - 
 
 ## Possible Improvements [! = added]
-- Adding comments for better readability 
+- Adding comments for better readability!
 - Combine selectors that use the same CSS for organization
 - Use override styles using CSS order 
 

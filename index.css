@@ -2,6 +2,7 @@ body {
     margin: 0%;
 }
 
+/* Navbar & Hero Background */
 .header,
 .hero
 {
@@ -12,6 +13,7 @@ body {
     background-color: #1F2937;
 }
 
+/* Navbar */
 .logo {
     margin-right: auto;
     margin-left: 80px;
@@ -25,6 +27,7 @@ body {
     align-self: center;
 }
 
+/* Header / Hero */
 .hero {
     display: flex;
     padding: 20px 60px 80px 100px;
@@ -67,7 +70,8 @@ body {
     width: 100%;
 }
 
-.gallery-image {
+/* Image Gallery */
+#gallery-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -109,7 +113,8 @@ body {
     border-radius: 10px;
 }
 
-.quotes {
+/* Quotes Section */
+#quotes {
     display: flex;
     background-color: #E5E7EB;
     flex-direction: column;
@@ -130,7 +135,9 @@ body {
     align-self: flex-end;
 }
 
-.ad {
+
+/* Ad Section */
+#ad {
     display: flex;
     height: 300px;
     width: auto;
@@ -183,6 +190,7 @@ body {
     border-radius: 5px;
 }
 
+/* Footer / Copyright */
 .footer {
     display: flex;
     background-color: #1F2937;
