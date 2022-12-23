@@ -33,6 +33,10 @@ body {
     padding: 20px 60px 80px 100px;
 }
 
+.hero .left {
+    min-width: 374px;
+}
+
 .hero .main {
     font-size: 48px;
     font-weight: bolder;
@@ -76,7 +80,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 300px;
 }
 
 .gallery-title {
@@ -126,7 +129,6 @@ body {
     font-style: italic;
     font-weight: 100;
     font-size: 36px;
-
     color: #1F2937;
 }
 
@@ -148,12 +150,13 @@ body {
     display: flex;
     align-self: center;
     justify-content: space-around;
+    flex-shrink: 0;
     border: 2px solid #3882F6;
     border-radius: 10px;
     background-color: #3882F6;
     flex-basis: 700px;
     height: 100px;
-    padding: 10px
+    padding: 10px;
 }
 
 .ad-text {
@@ -196,6 +199,8 @@ body {
     background-color: #1F2937;
     height: 100px;
     justify-content: center;
+    margin-top: auto;
+    flex-grow: 1;
 }
 
 .footer p {
